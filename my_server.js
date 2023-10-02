@@ -17,6 +17,7 @@ app.get('/', (_req, res) => {
 app.use('/api/org', pro);   //middleware
 
 const start = async () => {
+    
     try {
         await connectDb(process.env.MONGODB_URL);
         app.listen(PORT, () => console.log(`${PORT} is connected`))
