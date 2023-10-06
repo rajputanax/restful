@@ -9,7 +9,7 @@ const pro = require('./routes/product')  // creating a route
 const connectDb = require('./db/connect')      // connect mongodb
 
 
-// simple method for getting a res on localhost
+// simple method for getting a response  on localhost
 app.get('/', (_req, res) => {
     res.send('yes I am Live')
 });    
