@@ -1,29 +1,34 @@
 [
-{
-"name" : "iphone",
-"price" : 154 ,
-"feature" : true,
-"company" : "apple"
-},{
-    "name" : "iphone10",
-    "price" : 1540 ,
-    "feature" : true,
-    "company" : "apple"  
-},{
-    "name" : "watch",
-    "price" : 204 ,
-    "company" : "apple"
-}
- ,
-{
-    "name" : "watch10",
-    "price" : 209 ,
-    "company" : "apple"
-}
-,
-{
-    "name" : "s20",
-    "price" : 20009 ,
-    "company" : "samsung"
-}
-]
+    {
+      "name": "iphone",
+      "price": 154,
+      "feature": true,
+      "company": "apple"
+    },
+    {
+      "name": "iphone10",
+      "price": 1540,
+      "feature": true,
+      "company": "apple"
+    },
+    {
+      "name": "watch",
+      "price": 204,
+      "feature": true,
+      "company": "apple"
+    },
+    {
+      "name": "watch10",
+      "price": 209,
+      "feature": true,
+      "company": "apple"
+    },
+    {
+      "name": "s30",
+      "price": 20009,
+      "feature": true,
+      "company": "samsung",
+      "rating"  : 4
+    }
+  ]
+  
