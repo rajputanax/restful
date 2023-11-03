@@ -8,6 +8,10 @@ const pro = require('./routes/product')  // creating a route
 
 const connectDb = require('./db/connect')      // connect mongodb
 
+// bodyParser
+app.use(express.json());
+// urlEnconded
+app.use(express.urlencoded({extended:true}))
 
 // simple method for getting a response  on localhost
 app.get('/', (_req, res) => {

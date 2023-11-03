@@ -17,11 +17,15 @@ const productSchema = new mongoose.Schema({
     type: Number,
     default: 3,
   },
-  createdAt: {
-    type: Date,
-    default: Date.now,
-  },
+  // createdAt: {
+  //   type: Date,
+  //   default: Date.now,
+  // },
  
-});
+},
+{
+  timestamps:true
+}
+);
 
-module.exports = mongoose.model('products', productSchema);
+module.exports = mongoose.model('Products', productSchema);

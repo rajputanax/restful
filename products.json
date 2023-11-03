@@ -1,6 +1,6 @@
 [
     {
-      "name": "iphone",
+      "name": "iphone12",
       "price": 154,
       "feature": true,
       "company": "apple"
@@ -8,7 +8,7 @@
     {
       "name": "iphone10",
       "price": 1540,
-      "feature": true,
+      "featured": true,
       "company": "apple"
     },
     {

@@ -9,6 +9,8 @@ const newInfo = require ("./newJson.json")
 const start = async () => {
     try {
         await connectDb(process.env.MONGO_URL)
+        await Product.deleteMany()
+        await InfoNow.deleteMany()
         await Product.create(ProductJson);
         await InfoNow.create(newInfo);
         console.log('success');
